@@ -1,0 +1,27 @@
+# Build output
+target/
+*.jar
+*.war
+*.class
+
+# Credentials — NEVER commit these
+.env
+secrets/
+*.json
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Maven wrapper
+!.mvn/wrapper/maven-wrapper.jar
